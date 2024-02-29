@@ -1,0 +1,9 @@
+psycopg2==2.9.3  # Adjust the version to match your compatibility needs
+# psycopg2-binary might be a preferable choice for some environments, offering easier installation
+ElementTree  # ElementTree is part of the standard library, so it doesn't need to be included
+base64  # base64 is part of the standard library, so it doesn't need to be included
+typing  # typing is part of the standard library for Python 3.5 and newer, so it doesn't need to be included
+configparser==5.0.2  # Adjust the version to match your compatibility needs; for Python 2, or Python 3.5 and earlier
+fastapi==0.70.0  # Adjust the version to match your compatibility needs
+uvicorn==0.15.0  # Uvicorn is an ASGI server for FastAPI, not directly imported but typically required
+python-multipart==0.0.5  # Required for FastAPI to handle form data
